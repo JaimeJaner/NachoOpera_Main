@@ -25,6 +25,12 @@ namespace NachoOpera_Main
 
         }
 
+        private void btn_multiplicacion_Click(object sender, EventArgs e)
+        {
+            lbl_Resultado.Text = Convert.ToString(NachoOperacion_Multiplicacion.Multiplicacion.Multiplicar(double.Parse(txt_NumeroUno.Text), double.Parse(txt_NumeroDos.Text)));
+
+        }
+
         private void btn_Resta_Click(object sender, EventArgs e)
         {
             lbl_Resultado.Text = Convert.ToString(NachoOpera_Resta.Class1.Resta(double.Parse(txt_NumeroUno.Text), double.Parse(txt_NumeroDos.Text)));

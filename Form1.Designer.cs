@@ -37,7 +37,7 @@ namespace NachoOpera_Main
             this.lbl_Resultado = new System.Windows.Forms.Label();
             this.lbl_ResultadoTexto = new System.Windows.Forms.Label();
             this.btn_Resta = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_multiplicacion = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -120,15 +120,22 @@ namespace NachoOpera_Main
             this.btn_Resta.UseVisualStyleBackColor = true;
             this.btn_Resta.Click += new System.EventHandler(this.btn_Resta_Click);
             // 
-            // button2
+            // btn_multiplicacion
             // 
-            this.button2.Location = new System.Drawing.Point(555, 416);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 78);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Multiplicación";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_multiplicacion.Location = new System.Drawing.Point(416, 338);
+            this.btn_multiplicacion.Name = "btn_multiplicacion";
+            this.btn_multiplicacion.Size = new System.Drawing.Size(123, 63);
+            this.btn_multiplicacion.TabIndex = 8;
+            this.btn_multiplicacion.Text = "Multiplicación";
+            this.btn_multiplicacion.UseVisualStyleBackColor = true;
+            this.btn_multiplicacion.Click += new System.EventHandler(this.btn_multiplicacion_Click);
+            this.btn_multiplicacion.Location = new System.Drawing.Point(555, 416);
+            this.btn_multiplicacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_multiplicacion.Name = "btn_multiplicacion";
+            this.btn_multiplicacion.Size = new System.Drawing.Size(164, 78);
+            this.btn_multiplicacion.TabIndex = 8;
+            this.btn_multiplicacion.Text = "Multiplicación";
+            this.btn_multiplicacion.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -146,7 +153,7 @@ namespace NachoOpera_Main
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_multiplicacion);
             this.Controls.Add(this.btn_Resta);
             this.Controls.Add(this.lbl_ResultadoTexto);
             this.Controls.Add(this.lbl_Resultado);
@@ -173,7 +180,7 @@ namespace NachoOpera_Main
         private System.Windows.Forms.Label lbl_Resultado;
         private System.Windows.Forms.Label lbl_ResultadoTexto;
         private System.Windows.Forms.Button btn_Resta;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_multiplicacion;
         private System.Windows.Forms.Button button3;
     }
 }
