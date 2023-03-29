@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using NachoOperacion_Suma;
+using NachoOpera_Resta;
 
 namespace NachoOpera_Main
 {
@@ -22,6 +23,11 @@ namespace NachoOpera_Main
         {
             lbl_Resultado.Text=Convert.ToString(NachoOperacion_Suma.Class1.Suma(double.Parse(txt_NumeroUno.Text), double.Parse(txt_NumeroDos.Text)));
 
+        }
+
+        private void btn_Resta_Click(object sender, EventArgs e)
+        {
+            lbl_Resultado.Text = Convert.ToString(NachoOpera_Resta.Class1.Resta(double.Parse(txt_NumeroUno.Text), double.Parse(txt_NumeroDos.Text)));
         }
     }
 }
