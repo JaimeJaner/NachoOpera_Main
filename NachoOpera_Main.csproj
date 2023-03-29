@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NachoOperacion_Multiplicacion">
+      <HintPath>..\..\..\OneDrive\Escritorio\programacion\pascualBravo\hdep2\NachoOperacion_Multiplicacion\bin\Debug\NachoOperacion_Multiplicacion.dll</HintPath>
+    </Reference>
     <Reference Include="NachoOperacion_Suma, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\NachoOperacion_Suma.dll</HintPath>

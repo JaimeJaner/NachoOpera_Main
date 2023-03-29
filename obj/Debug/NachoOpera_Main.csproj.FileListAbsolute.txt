@@ -9,3 +9,17 @@ C:\Users\Eo\source\repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.csproj.CoreCo
 C:\Users\Eo\source\repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.csproj.CopyComplete
 C:\Users\Eo\source\repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.exe
 C:\Users\Eo\source\repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.pdb
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\bin\Debug\NachoOpera_Main.exe.config
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\bin\Debug\NachoOpera_Main.exe
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\bin\Debug\NachoOpera_Main.pdb
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\bin\Debug\NachoOperacion_Multiplicacion.dll
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\bin\Debug\NachoOperacion_Multiplicacion.pdb
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.csproj.AssemblyReference.cache
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.csproj.SuggestedBindingRedirects.cache
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.Form1.resources
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.Properties.Resources.resources
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.csproj.GenerateResource.cache
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.csproj.CoreCompileInputs.cache
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.csproj.CopyComplete
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.exe
+C:\Users\jpabl\Source\Repos\NachoOpera_Main\obj\Debug\NachoOpera_Main.pdb
