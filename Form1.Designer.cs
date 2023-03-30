@@ -38,15 +38,14 @@ namespace NachoOpera_Main
             this.lbl_ResultadoTexto = new System.Windows.Forms.Label();
             this.btn_Resta = new System.Windows.Forms.Button();
             this.btn_multiplicacion = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnDivision = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_sumar
             // 
-            this.btn_sumar.Location = new System.Drawing.Point(137, 416);
-            this.btn_sumar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_sumar.Location = new System.Drawing.Point(103, 338);
             this.btn_sumar.Name = "btn_sumar";
-            this.btn_sumar.Size = new System.Drawing.Size(164, 78);
+            this.btn_sumar.Size = new System.Drawing.Size(123, 63);
             this.btn_sumar.TabIndex = 0;
             this.btn_sumar.Text = "Sumar";
             this.btn_sumar.UseVisualStyleBackColor = true;
@@ -54,28 +53,25 @@ namespace NachoOpera_Main
             // 
             // txt_NumeroUno
             // 
-            this.txt_NumeroUno.Location = new System.Drawing.Point(137, 257);
-            this.txt_NumeroUno.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_NumeroUno.Location = new System.Drawing.Point(103, 209);
             this.txt_NumeroUno.Name = "txt_NumeroUno";
-            this.txt_NumeroUno.Size = new System.Drawing.Size(315, 22);
+            this.txt_NumeroUno.Size = new System.Drawing.Size(237, 20);
             this.txt_NumeroUno.TabIndex = 1;
             // 
             // txt_NumeroDos
             // 
-            this.txt_NumeroDos.Location = new System.Drawing.Point(555, 257);
-            this.txt_NumeroDos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_NumeroDos.Location = new System.Drawing.Point(416, 209);
             this.txt_NumeroDos.Name = "txt_NumeroDos";
-            this.txt_NumeroDos.Size = new System.Drawing.Size(315, 22);
+            this.txt_NumeroDos.Size = new System.Drawing.Size(237, 20);
             this.txt_NumeroDos.TabIndex = 2;
             // 
             // lbl_numeroUno
             // 
             this.lbl_numeroUno.AutoSize = true;
             this.lbl_numeroUno.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_numeroUno.Location = new System.Drawing.Point(201, 202);
-            this.lbl_numeroUno.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_numeroUno.Location = new System.Drawing.Point(151, 164);
             this.lbl_numeroUno.Name = "lbl_numeroUno";
-            this.lbl_numeroUno.Size = new System.Drawing.Size(174, 39);
+            this.lbl_numeroUno.Size = new System.Drawing.Size(140, 31);
             this.lbl_numeroUno.TabIndex = 3;
             this.lbl_numeroUno.Text = "Numero 1";
             // 
@@ -83,38 +79,34 @@ namespace NachoOpera_Main
             // 
             this.lbl_NumeroDos.AutoSize = true;
             this.lbl_NumeroDos.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_NumeroDos.Location = new System.Drawing.Point(619, 202);
-            this.lbl_NumeroDos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_NumeroDos.Location = new System.Drawing.Point(464, 164);
             this.lbl_NumeroDos.Name = "lbl_NumeroDos";
-            this.lbl_NumeroDos.Size = new System.Drawing.Size(174, 39);
+            this.lbl_NumeroDos.Size = new System.Drawing.Size(140, 31);
             this.lbl_NumeroDos.TabIndex = 4;
             this.lbl_NumeroDos.Text = "Numero 2";
             // 
             // lbl_Resultado
             // 
             this.lbl_Resultado.AutoSize = true;
-            this.lbl_Resultado.Location = new System.Drawing.Point(481, 342);
-            this.lbl_Resultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_Resultado.Location = new System.Drawing.Point(361, 278);
             this.lbl_Resultado.Name = "lbl_Resultado";
-            this.lbl_Resultado.Size = new System.Drawing.Size(0, 16);
+            this.lbl_Resultado.Size = new System.Drawing.Size(0, 13);
             this.lbl_Resultado.TabIndex = 5;
             // 
             // lbl_ResultadoTexto
             // 
             this.lbl_ResultadoTexto.AutoSize = true;
-            this.lbl_ResultadoTexto.Location = new System.Drawing.Point(400, 342);
-            this.lbl_ResultadoTexto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_ResultadoTexto.Location = new System.Drawing.Point(300, 278);
             this.lbl_ResultadoTexto.Name = "lbl_ResultadoTexto";
-            this.lbl_ResultadoTexto.Size = new System.Drawing.Size(69, 16);
+            this.lbl_ResultadoTexto.Size = new System.Drawing.Size(55, 13);
             this.lbl_ResultadoTexto.TabIndex = 6;
             this.lbl_ResultadoTexto.Text = "Resultado";
             // 
             // btn_Resta
             // 
-            this.btn_Resta.Location = new System.Drawing.Point(309, 416);
-            this.btn_Resta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Resta.Location = new System.Drawing.Point(232, 338);
             this.btn_Resta.Name = "btn_Resta";
-            this.btn_Resta.Size = new System.Drawing.Size(164, 78);
+            this.btn_Resta.Size = new System.Drawing.Size(123, 63);
             this.btn_Resta.TabIndex = 7;
             this.btn_Resta.Text = "Resta";
             this.btn_Resta.UseVisualStyleBackColor = true;
@@ -129,30 +121,23 @@ namespace NachoOpera_Main
             this.btn_multiplicacion.Text = "Multiplicación";
             this.btn_multiplicacion.UseVisualStyleBackColor = true;
             this.btn_multiplicacion.Click += new System.EventHandler(this.btn_multiplicacion_Click);
-            this.btn_multiplicacion.Location = new System.Drawing.Point(555, 416);
-            this.btn_multiplicacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btn_multiplicacion.Name = "btn_multiplicacion";
-            this.btn_multiplicacion.Size = new System.Drawing.Size(164, 78);
-            this.btn_multiplicacion.TabIndex = 8;
-            this.btn_multiplicacion.Text = "Multiplicación";
-            this.btn_multiplicacion.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnDivision
             // 
-            this.button3.Location = new System.Drawing.Point(727, 416);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(164, 78);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "División";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnDivision.Location = new System.Drawing.Point(545, 338);
+            this.btnDivision.Name = "btnDivision";
+            this.btnDivision.Size = new System.Drawing.Size(123, 63);
+            this.btnDivision.TabIndex = 9;
+            this.btnDivision.Text = "División";
+            this.btnDivision.UseVisualStyleBackColor = true;
+            this.btnDivision.Click += new System.EventHandler(this.btnDivision_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.button3);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDivision);
             this.Controls.Add(this.btn_multiplicacion);
             this.Controls.Add(this.btn_Resta);
             this.Controls.Add(this.lbl_ResultadoTexto);
@@ -162,9 +147,9 @@ namespace NachoOpera_Main
             this.Controls.Add(this.txt_NumeroDos);
             this.Controls.Add(this.txt_NumeroUno);
             this.Controls.Add(this.btn_sumar);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,7 +166,7 @@ namespace NachoOpera_Main
         private System.Windows.Forms.Label lbl_ResultadoTexto;
         private System.Windows.Forms.Button btn_Resta;
         private System.Windows.Forms.Button btn_multiplicacion;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnDivision;
     }
 }
 
